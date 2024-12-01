@@ -39,7 +39,7 @@ $zoomExit.addEventListener("click", ()=>
 $next.addEventListener("click", () =>
 {
     const $slidesCollection = document.querySelectorAll(".gallery__item")
-    $gallerySlider.appendChild($slidesCollection[1])
+    $gallerySlider.appendChild($slidesCollection[0])
 })
 
 
